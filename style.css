@@ -1,6 +1,7 @@
 body{
     background: url("./Assets/YosemiteLarge.JPG") no-repeat;
     background-color: lavender;
+    color: blue;
 }
 nav{
     overflow: hidden;
@@ -30,10 +31,19 @@ nav a{
     top: 260px;
     color: blue;
 }
+.resume{
+    text-align: center;
+    position: relative;
+    top: 260px;
+    color: blue;
+}
 #aboutme{
     text-align: center;
     position: relative;
-    top: 530px;
+    top: 420px;
+}
+.header{
+    color: darkblue;
 }
 #resume{
     text-align: center;
@@ -41,12 +51,35 @@ nav a{
 #projects{
     text-align: center;
     position: relative;
-    top: 1000px;
+    top: 600px;
+    color: blue;
+    display: inline-block;
 }
+/* .projectone{
+    text-align: center;
+    position: relative;
+    top: 1020px;
+}
+.projecttwo{
+    text-align: center;
+    position: relative;
+    top: 1020px;
+}
+.projectthree{
+    text-align: center;
+    position: relative;
+    top: 1020px;
+}
+.projectfour{
+    text-align: center;
+    position: relative;
+    top: 1020px;
+} */
 #contact{
     text-align: center;
     position: relative;
-    top: 1470px;
+    top: 930px;
+    color: black;
 }
 #nameandemail{
     height: 50px;
@@ -59,5 +92,5 @@ nav a{
 #footer{
     text-align: center;
     position: relative;
-    top: 1480px;
+    top: 940px;
 }
