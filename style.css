@@ -42,6 +42,9 @@ nav a{
     position: relative;
     top: 420px;
 }
+#aboutme span{
+    background-color: lavender;
+}
 .header{
     color: darkblue;
 }
@@ -61,16 +64,6 @@ nav a{
 }
 #projects img{
     border: darkblue solid 3px;
-}
-#projects span{
-    text-align: center;
-    position: absolute;
-    left: 220px;
-    top: 300px;
-    background-color: lavender;
-    padding: 2px;
-    width: 200px;
-    height: 30px;
 }
 #contact{
     text-align: center;
