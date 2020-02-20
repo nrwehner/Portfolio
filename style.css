@@ -54,32 +54,28 @@ nav a{
     top: 600px;
     color: blue;
     display: inline-block;
+    width: 100%;
 }
-/* .projectone{
-    text-align: center;
-    position: relative;
-    top: 1020px;
+#projects a{
+    padding: 30px;
 }
-.projecttwo{
-    text-align: center;
-    position: relative;
-    top: 1020px;
+#projects img{
+    border: darkblue solid 3px;
 }
-.projectthree{
+#projects span{
     text-align: center;
-    position: relative;
-    top: 1020px;
+    position: absolute;
+    left: 220px;
+    top: 300px;
+    background-color: lavender;
+    padding: 2px;
+    width: 200px;
+    height: 30px;
 }
-.projectfour{
-    text-align: center;
-    position: relative;
-    top: 1020px;
-} */
 #contact{
     text-align: center;
     position: relative;
     top: 930px;
-    color: black;
 }
 #nameandemail{
     height: 50px;
