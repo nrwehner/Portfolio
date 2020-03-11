@@ -43,6 +43,7 @@ nav a{
     top: 420px;
 }
 #aboutme span{
+    text-align: left;
     background-color: lavender;
 }
 .header{
