@@ -69,16 +69,34 @@ nav span{
     color: darkblue;
 }
 #projects{
-    color: blue;
-    display: inline-block;
-    width: 100%;
+    /* might not need */
 }
-#projects a{
-    padding: 30px;
+.row{
+    margin: 0 10px;;
 }
-#projects img{
-    border: darkblue solid 3px;
-}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: lavender;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
 #contact{
     position: relative;
     top: 45px;
@@ -100,6 +118,10 @@ nav span{
 #footer{
     position: relative;
     top: 200px;
+    color: white;
+    text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+}
+#projectfooter{
     color: white;
     text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 }
