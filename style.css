@@ -3,6 +3,7 @@ body{
     background: url("./Assets/YosemiteLarge.JPG") no-repeat;
     background-color: lavender;
     color: blue;
+    opacity: .85;
 }
 nav{
     overflow: hidden;
@@ -41,31 +42,47 @@ nav span{
     text-decoration: none;
 }
 .name{
+    font-weight: bolder;
     position: relative;
-    top: 260px;
+    top: 220px;
     color: darkblue;
 }
 .subname{
     position: relative;
-    top: 260px;
+    top: 220px;
     color: blue;
+    text-shadow: -1px 0 lavender, 0 1px lavender, 1px 0 lavender, 0 -1px lavender;
 }
 .resume{
     position: relative;
-    top: 260px;
+    top: 220px;
 }
 .resume a{
     color: lavender;
     text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 }
 #aboutme{
-    /* might not need */
+    position: relative;
+    top: 80px;
+    text-align: center;
+    margin: 0 30px;
 }
-#aboutme span{
+#aboutme div{
     text-align: left;
+    font-size: large;
+    font-weight: 400;
+    color: darkblue;
+}
+#fog{
+    opacity: .70;
     background-color: lavender;
 }
+#aboutme span b{
+    font-weight: 600;
+    font-size: x-large;
+}
 .header{
+    text-align: center;
     color: darkblue;
 }
 #projects{
@@ -90,6 +107,15 @@ nav span{
     text-align: center;
     background-color: lavender;
   }
+  .card-title{
+color: darkblue;
+  }
+  .card-text{
+color: blue;
+  }
+  #projects a{
+      color: darkblue;
+  }
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
@@ -99,19 +125,32 @@ nav span{
   }
 #contact{
     position: relative;
-    top: 45px;
+    top: 80px;
 }
 #nameandemail{
     height: 50px;
     width: 400px;
+    color: darkblue;
 }
 #message{
     height: 200px;
     width: 806px;
+    color: darkblue;
+    font-weight: 500;
+}
+input{
+    height: 40px;
+    width: 100px;
+    color: darkblue;
+    font-weight: 500;
+    font-size: large;
+}
+::placeholder{
+color: darkblue;
 }
 #homefooter{
     position: relative;
-    top: 460px;
+    top: 480px;
     color: white;
     text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 }
