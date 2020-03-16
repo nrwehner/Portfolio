@@ -50,16 +50,14 @@ nav span{
 .subname{
     position: relative;
     top: 220px;
-    color: blue;
-    text-shadow: -1px 0 lavender, 0 1px lavender, 1px 0 lavender, 0 -1px lavender;
+    color: darkblue;
 }
 .resume{
     position: relative;
     top: 220px;
 }
 .resume a{
-    color: lavender;
-    text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+    color: blue;
 }
 #aboutme{
     position: relative;
