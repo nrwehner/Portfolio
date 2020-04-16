@@ -52,12 +52,26 @@ nav span{
     top: 220px;
     color: darkblue;
 }
+div:nth-child(6){
+    background: #4f3c04;
+  }
+  ul:nth-child(5){
+    background: #4f3c04;
+  }
+  ul:nth-child(6){
+    background: #4f3c04;
+  }
+  ul:nth-of-type(6){
+    background: #4f3c04;
+  }
 .resume{
     position: relative;
     top: 220px;
 }
 .resume a{
     color: blue;
+    font-weight: normal;
+    text-decoration: underline;
 }
 #aboutme{
     position: relative;
